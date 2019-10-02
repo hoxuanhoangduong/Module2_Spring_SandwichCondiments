@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CondimentsController {
     @RequestMapping("/save")
     public String save(@RequestParam("condiment") String[] condiment) {
-        return "sandwich"
+        return "sandwich";
     }
 }
